@@ -1,0 +1,15 @@
+{
+  "cluster": "default",
+  "serviceName": "appname",
+  "taskDefinition": "appname:<VERSION_NUMBER>",
+  "loadBalancers": [
+    {
+      "loadBalancerName": "appname",
+      "containerName": "appname",
+      "containerPort": 8003
+    }
+  ],
+  "desiredCount": 2,
+  "clientToken": "",
+  "role": "ecsServiceRole"
+}
