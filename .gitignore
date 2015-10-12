@@ -1,0 +1,17 @@
+.idea
+codeship.key
+codeship.aes
+*.env
+dockerenv
+tmp
+.docker/development/.vagrant
+.docker/development/data/
+.docker/development/logs/backend/*
+.docker/testing/.vagrant
+.docker/testing/data/
+.docker/testing/logs/backend/*
+application/configs/application.ini
+application/configs/cli.ini
+sql
+build/logs
+tests/application/logs
